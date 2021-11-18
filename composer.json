@@ -1,0 +1,41 @@
+{
+    "name": "gelbfrucht/template-core",
+    "description": "Core template extension for TYPO3 CMS ",
+    "type": "typo3-cms-extension",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Hendrik Behr",
+            "email": "hbhrghub@gmx.net"
+        },
+        {
+            "name": "Lucas Janczik"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "typo3/cms-backend": "^11.5",
+        "typo3/cms-frontend": "^11.5",
+        "typo3/cms-fluid": "^11.5",
+    },
+    "require-dev": {
+        "typo3/testing-framework": "^6.14.0",
+        "phpunit/phpunit": "^9.5.10"
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "gelbfrucht_templatecore"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Gelbfrucht\\TemplateCore\\": "Classes"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Gelbfrucht\\TemplateCore\\Test\\": "Tests"
+        }
+    }
+}
