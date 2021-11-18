@@ -12,7 +12,8 @@
             "name": "Lucas Janczik"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {
         "php": "^7.4 || ^8.0",
         "typo3/cms-backend": "^11.5",
