@@ -2,7 +2,7 @@
     "name": "gelbfrucht/template-core",
     "description": "Core template extension for TYPO3 CMS ",
     "type": "typo3-cms-extension",
-    "license": "GPL-2.0-or-later",
+    "license": "MIT",
     "authors": [
         {
             "name": "Hendrik Behr",
