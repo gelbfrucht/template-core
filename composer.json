@@ -17,7 +17,7 @@
         "php": "^7.4 || ^8.0",
         "typo3/cms-backend": "^11.5",
         "typo3/cms-frontend": "^11.5",
-        "typo3/cms-fluid": "^11.5",
+        "typo3/cms-fluid": "^11.5"
     },
     "require-dev": {
         "typo3/testing-framework": "^6.14.0",
